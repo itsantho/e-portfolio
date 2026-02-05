@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <v-toolbar class="bg-transparent" dark flat>
+  <v-toolbar class="bg-transparent position-fixed" dark flat>
       <v-toolbar-title>Anthony</v-toolbar-title>
       <v-btn text="work"></v-btn>
       <v-btn text="comptences"></v-btn>

@@ -11,7 +11,7 @@ const socials = [
 </script>
 
 <template>
-    <div class=" mt-4">
+    <div class="mt-4">
       <v-btn
         v-for="social in socials"
         :key="social.name"
@@ -19,7 +19,7 @@ const socials = [
         target="_blank"
         icon
         flat
-        class="social-btn mx-auto bg-transparent mb-10"
+        class="social-btn mx-auto bg-transparent"
       >
         <svg-icon type="mdi" :path="social.icon" size="36"/>
       </v-btn>

@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-main>
+      <Navbar></Navbar>
       <Welcome/>
       <v-divider></v-divider>
       <Skills></Skills>

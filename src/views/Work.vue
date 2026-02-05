@@ -7,19 +7,15 @@ const networks = [
 </script>
 
 <template>
-  <v-card-title class="d-flex mt-5 justify-center text-h5 ">
-    Projets
-  </v-card-title>
-  <v-card flat class="mx-auto mt-3 " max-width="1300">
-    <v-infinite-scroll
-      direction="horizontal"
-      mode="manual"
-      max-height="1000"
-    >
-      <v-row no-gutters>
-        <!-- coupdmain -->
-        <v-col cols="auto" class="mr-4">
-          <v-card max-width="500">
+  
+  <v-card flat class="mx-auto bg-transparent w-75" >
+    <v-card-title class="d-flex mt-5 justify-center text-h5 ">
+      Projets
+    </v-card-title>
+    <v-card flat class="mx-auto">
+      <v-row no-gutters class="mb-5" justify="space-evenly">
+        <v-col cols="auto">
+          <v-card max-width="400">
             <v-img  src="../assets/poster-coupdmain.png" ></v-img>
             <v-card-item>
               <v-card-title>Coup d'Main</v-card-title>
@@ -33,21 +29,19 @@ const networks = [
             <v-card-text class="d-flex align-center ga-1">
               <v-chip size="small">React Native</v-chip>
               <v-chip size="small">Firebase</v-chip>
-              <v-chip size="small">TypeScript</v-chip>
               <v-chip size="small">Node.js</v-chip>
             </v-card-text>
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
         </v-col>
-        <!-- laravel gestion-->
-        <v-col cols="auto" class="mr-4">
-          <v-card max-width="500" >
+        <v-col cols="auto">
+          <v-card max-width="400" >
             <v-img src="../assets/gestion_reservation.png" ></v-img>
             <v-card-item>
               <v-card-title>Gestion de réservation</v-card-title>
-              <v-card-subtitle class="d-flex">Application Laravel</v-card-subtitle>
+              <v-card-subtitle class="d-flex">Application web Laravel</v-card-subtitle>
             </v-card-item>
-          <v-card-text>Application web de gestion de réservations immobilières permettant aux clients de réserver des biens en ligne et aux propriétaires de gérer l’ensemble de leur activité via un panel d’administration dédié.
+          <v-card-text>Application de gestion immobilières permettant de réserver des biens en ligne et aux propriétaires de gérer leur activité via un panel d’administration dédié.
             </v-card-text>
             <v-card-text class="d-flex align-center ga-1">
               <v-chip size="small">Laravel</v-chip>
@@ -60,9 +54,27 @@ const networks = [
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/itsantho/laravel-gestion-de-reservation"></v-btn>
           </v-card>
         </v-col>
+        <v-col cols="auto">
+          <v-card max-width="400">
+            <v-img  src="../assets/icon.png" ></v-img>
+            <v-card-item>
+              <v-card-title>Giverr</v-card-title>
+              <v-card-subtitle class="d-flex">Application mobile de dons</v-card-subtitle>
+            </v-card-item>
+          <v-card-text>Application mobile innovante dédiée à la gestion des dons pour "France Assos Santé" et leurs associations partenaires.
+            </v-card-text>
+            <v-card-text class="d-flex align-center ga-1">
+              <v-chip size="small">React Native</v-chip>
+              <v-chip size="small">TypeScript</v-chip>
+              <v-chip size="small">Spring Java</v-chip>
+            </v-card-text>
+            <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
+          </v-card>
+        </v-col>
       </v-row>
-    </v-infinite-scroll>
   </v-card>
+</v-card>
+
 </template>
 
 <style scoped>
