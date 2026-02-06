@@ -21,8 +21,8 @@ export default defineConfig({
       fontsource: {
         families: [
           {
-            name: 'Roboto',
-            weights: [100, 300, 400, 500, 700, 900],
+            name: 'Poppins',
+            weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
             styles: ['normal', 'italic'],
           },
         ],
