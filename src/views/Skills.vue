@@ -2,9 +2,10 @@
 <template>
 
     <v-card flat class="mx-auto bg-transparent w-75">
-      <v-card-title class="d-flex mt-5 justify-center text-h5 ">
-        Compétences Techniques
+      <v-card-title class="d-flex mt-5 justify-center text-h4 ">
+        Compétences Techniques 
       </v-card-title>
+      <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure</v-card-subtitle>
       <v-card flat class="mx-auto mt-3 mb-5" >
         <v-row class="mb-5" >
         <v-col cols="6" md="4">
