@@ -5,10 +5,10 @@ import Navbar from "@/components/Navbar.vue";
 
 <template >
   
-  <div class="fill-height d-flex flex-column justify-center bg-grey-lighten-4">
-    <v-card flat class="mx-auto bg-transparent w-90">
+  <div class="d-flex flex-column justify-center bg-grey-lighten-4" style="min-height: 100vh">
+    <v-card flat class="mx-auto bg-transparent ">
       <v-card-text>
-        <v-row align="center">
+        <v-row >
           <!-- Colonne texte -->
           <v-col cols="8">
             <v-card-title class="text-h3">
