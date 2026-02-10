@@ -36,7 +36,7 @@
                                     <div class="text-center text-body-1" >Bachelor Universitaire Technologique Informatique à IUT Paris rives de Seine</div>
                                 </v-timeline-item>
                                 <v-timeline-item size="small">
-                                    <div class="text-center text-body-1" >Baccalauréat STI2D à Lycée Albert de Mun</div>
+                                    <div class="text-center text-body-1" >Baccalauréat STI2D au Lycée Albert de Mun</div>
                                 </v-timeline-item>
                             </v-timeline>
                         </div>

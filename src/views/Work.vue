@@ -11,7 +11,7 @@ import {mdiGithub} from "@mdi/js";
     <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">Une sélection de projets qui démontrent mon expertise en développement full-stack.</v-card-subtitle>
     <v-card flat class="mx-auto">
       <v-row no-gutters class="mb-5" justify="space-evenly">
-        <v-col cols="auto">
+        <v-col cols="auto mb-5">
           <v-card max-width="400">
             <v-img  src="../assets/poster-coupdmain.png" ></v-img>
             <v-card-item>
@@ -31,7 +31,7 @@ import {mdiGithub} from "@mdi/js";
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
         </v-col>
-        <v-col cols="auto">
+        <v-col cols="auto mb-5">
           <v-card max-width="400" >
             <v-img src="../assets/gestion_reservation.png" ></v-img>
             <v-card-item>
@@ -51,7 +51,7 @@ import {mdiGithub} from "@mdi/js";
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/itsantho/laravel-gestion-de-reservation"></v-btn>
           </v-card>
         </v-col>
-        <v-col cols="auto">
+        <v-col cols="auto mb-5">
           <v-card max-width="400">
             <v-img  src="../assets/icon.png" ></v-img>
             <v-card-item>
@@ -68,7 +68,7 @@ import {mdiGithub} from "@mdi/js";
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
         </v-col>
-        <v-col cols="auto">
+        <v-col cols="auto mb-5">
           <v-card max-width="400">
             <v-img  src="../assets/n8n.png" ></v-img>
             <v-card-item>
@@ -81,7 +81,6 @@ import {mdiGithub} from "@mdi/js";
               <v-chip size="small">TypeScript</v-chip>
               <v-chip size="small">n8n</v-chip>
               <v-chip size="small">sqlite</v-chip>
-              <v-chip size="small">IA</v-chip>
             </v-card-text>
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
