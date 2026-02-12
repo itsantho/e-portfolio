@@ -8,7 +8,7 @@ import Contact from "@/components/Contact.vue";
   
   <div class="d-flex flex-column justify-center bg-grey-lighten-4" style="min-height: 100vh">
     
-    <v-card flat class="mx-auto bg-transparent ">
+    <v-card flat class="mx-auto bg-transparent w-50">
       
         <v-row class="d-flex align-center">
           <!-- Image colonne - affichée en premier sur mobile -->
@@ -25,8 +25,8 @@ import Contact from "@/components/Contact.vue";
                 <v-card-title class="text-h3">
                   <span class="text-grey-darken-1">Bonjour, Je suis</span> Anthony IEM
                 </v-card-title>
-                <v-card-subtitle class="text-h5">Développeur Fullstack & etudiant en B.U.T informatique</v-card-subtitle>
-                <v-card-text class="text-h5">
+                <v-card-subtitle class="text-h4">Développeur Fullstack & etudiant en B.U.T informatique</v-card-subtitle>
+                <v-card-text class="text-h4">
                   Spécialiser dans le développement FullStack, le développement mobile et concepection agile d'un produit SaaS.
                 </v-card-text>
                 <div>
@@ -63,8 +63,8 @@ import Contact from "@/components/Contact.vue";
     overflow-wrap: break-word !important;
   }
   
-  :deep(.text-h5) {
-    font-size: 0.9rem !important;
+  :deep(.text-h4) {
+    font-size: 1.2rem !important;
     word-break: break-word !important;
     white-space: normal !important;
     overflow-wrap: break-word !important;

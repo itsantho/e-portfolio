@@ -1,49 +1,49 @@
 <template>
-    <v-card flat class="mx-auto bg-transparent w-80">
+    <v-card flat class="mx-auto bg-transparent w-75">
       <v-card-title class="d-flex mt-5 justify-center text-h3">
         Compétences Techniques 
       </v-card-title>
-      <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">
+      <v-card-subtitle class="d-flex text-h6 mb-5 justify-center">
         Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure
       </v-card-subtitle>
-      <v-card flat class="mx-auto mt-3 mb-5" >
+      <v-card flat class="mx-auto mt-3 mb-5 " >
         <v-row class="mb-5" >
         <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
-              <v-card-title>Développement Web</v-card-title>
+              <v-card-title class="text-h5">Développement Web</v-card-title>
             </v-card-item>
             <v-card-text class="d-flex align-center ga-1">
-              <v-chip size="small">HTML/CSS</v-chip>
-              <v-chip size="small">JavaScript</v-chip>
-              <v-chip size="small">TypeScript</v-chip>
-              <v-chip size="small">PHP</v-chip>
+              <v-chip>HTML/CSS</v-chip>
+              <v-chip>JavaScript</v-chip>
+              <v-chip>TypeScript</v-chip>
+              <v-chip>PHP</v-chip>
             </v-card-text>
           </v-card>
         </v-col>
         <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
-              <v-card-title>Base de données</v-card-title>
+              <v-card-title class="text-h5">Base de données</v-card-title>
             </v-card-item>
             <v-card-text class="d-flex align-center ga-1">
-              <v-chip size="small">MySQL</v-chip>
-              <v-chip size="small">MongoDB</v-chip>
-              <v-chip size="small">Firebase</v-chip>
-              <v-chip size="small">MariaDB</v-chip>
+              <v-chip>MySQL</v-chip>
+              <v-chip>MongoDB</v-chip>
+              <v-chip>Firebase</v-chip>
+              <v-chip>MariaDB</v-chip>
             </v-card-text>
           </v-card>
         </v-col>
         <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
-              <v-card-title>DevOps & outils</v-card-title>
+              <v-card-title class="text-h5">DevOps & outils</v-card-title>
             </v-card-item>
             <v-card-text class="d-flex align-center ga-1">
-              <v-chip size="small">Docker</v-chip>
-              <v-chip size="small">Ansible</v-chip>
-              <v-chip size="small">CI/CD</v-chip>
-              <v-chip size="small">Gitlab</v-chip>
+              <v-chip>Docker</v-chip>
+              <v-chip>Ansible</v-chip>
+              <v-chip>CI/CD</v-chip>
+              <v-chip>Gitlab</v-chip>
             </v-card-text>
           </v-card>
         </v-col>
@@ -51,36 +51,36 @@
         <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
-              <v-card-title>Frameworks</v-card-title>
+              <v-card-title class="text-h5">Frameworks</v-card-title>
             </v-card-item>
             <v-card-text class="d-flex align-center ga-1">
-              <v-chip size="small">Node.js</v-chip>
-              <v-chip size="small">Vue.js</v-chip>
-              <v-chip size="small">Laravel</v-chip>
+              <v-chip>Node.js</v-chip>
+              <v-chip>Vue.js</v-chip>
+              <v-chip>Laravel</v-chip>
             </v-card-text>
           </v-card>
         </v-col>
         <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
-              <v-card-title>Développement mobile</v-card-title>
+              <v-card-title class="text-h5">Développement mobile</v-card-title>
             </v-card-item>
             <v-card-text class="d-flex align-center ga-1">
-              <v-chip size="small">React Native</v-chip>
-              <v-chip size="small">Android Studio</v-chip>
+              <v-chip>React Native</v-chip>
+              <v-chip>Android Studio</v-chip>
             </v-card-text>
           </v-card>
         </v-col>
         <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
-              <v-card-title>Développement logiciel</v-card-title>
+              <v-card-title class="text-h5">Développement logiciel</v-card-title>
             </v-card-item>
             <v-card-text class="d-flex align-center ga-1">
-              <v-chip size="small">Java</v-chip>
-              <v-chip size="small">Python</v-chip>
-              <v-chip size="small">C</v-chip>
-              <v-chip size="small">C++</v-chip>
+              <v-chip>Java</v-chip>
+              <v-chip>Python</v-chip>
+              <v-chip>C</v-chip>
+              <v-chip>C++</v-chip>
             </v-card-text>
           </v-card>
         </v-col>
@@ -93,7 +93,7 @@
 <style scoped>
   /* Réduire les tailles de police sur mobile */
   @media (max-width: 599px) {
-    :deep(.text-subtitle-1){
+    :deep(.text-h4){
     /*pour les retours à la ligne*/
     word-break: break-word !important;
     white-space: normal !important;
@@ -108,7 +108,7 @@
   }
   
   :deep(.text-h5) {
-    font-size: 0.9rem !important;
+
     word-break: break-word !important;
     white-space: normal !important;
     overflow-wrap: break-word !important;
@@ -117,6 +117,12 @@
   /* Réduire le padding de la card */
   :deep(.v-card-text) {
     padding: 16px !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+    :deep(.text-h6) {
+    /*pour les retours à la ligne*/
     word-break: break-word !important;
     white-space: normal !important;
     overflow-wrap: break-word !important;
