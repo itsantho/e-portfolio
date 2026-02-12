@@ -27,7 +27,7 @@ import Contact from "@/components/Contact.vue";
                 </v-card-title>
                 <v-card-subtitle class="text-h4">Développeur Fullstack & etudiant en B.U.T informatique</v-card-subtitle>
                 <v-card-text class="text-h4">
-                  Spécialiser dans le développement FullStack, le développement mobile et concepection agile d'un produit SaaS.
+                  Spécialiser dans le développement Full-Stack, mobile et en conception agile de produit SaaS.
                 </v-card-text>
                 <div class="pl-4">
                   <OpenCV></OpenCV>

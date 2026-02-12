@@ -4,7 +4,7 @@
         Compétences Techniques 
       </v-card-subtitle>
       <v-card-title class="d-flex mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
-        Mon savoir-faire : développement fullstack
+        Mon savoir-faire : développement fullstack 💻
       </v-card-title>
       <v-card flat class="mx-auto mt-3 mb-16 " >
         <v-row class="mb-5" >
