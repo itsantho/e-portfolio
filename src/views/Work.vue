@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import {mdiGithub} from "@mdi/js";
-
 </script>
 
 <template>
-  <v-card flat class="mx-auto bg-transparent w-75" >
+  <v-card flat class="mx-auto bg-transparent w-80" >
     <v-card-title class="d-flex mt-5 justify-center text-h3">
       Projets
     </v-card-title>
-    <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">Une sélection de projets qui démontrent mon expertise en développement full-stack.</v-card-subtitle>
+    <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">
+      Une sélection de projets qui démontrent mon expertise en développement full-stack.
+    </v-card-subtitle>
     <v-card flat class="mx-auto">
       <v-row no-gutters class="mb-5" justify="space-evenly">
         <v-col cols="auto mb-5">
@@ -97,5 +98,36 @@ import {mdiGithub} from "@mdi/js";
 }
 .social-btn:hover {
   transform: scale(1.1);
+}
+@media (max-width: 599px) {
+  /* Réduire les tailles de police sur mobile */
+  :deep(.text-subtitle-1){
+    /*pour les retours à la ligne*/
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  :deep(.text-h3) {
+    font-size: 1.5rem !important;
+    /*pour les retours à la ligne*/
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  :deep(.text-h5) {
+    font-size: 0.9rem !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  /* Réduire le padding de la card */
+  :deep(.v-card-text) {
+    padding: 16px !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
 }
 </style>

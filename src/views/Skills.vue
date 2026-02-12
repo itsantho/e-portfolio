@@ -1,14 +1,14 @@
-<script setup lang="ts"></script>
 <template>
-
-    <v-card flat class="mx-auto bg-transparent w-75">
-      <v-card-title class="d-flex mt-5 justify-center text-h3 ">
+    <v-card flat class="mx-auto bg-transparent w-80">
+      <v-card-title class="d-flex mt-5 justify-center text-h3">
         Compétences Techniques 
       </v-card-title>
-      <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure</v-card-subtitle>
+      <v-card-subtitle class="d-flex text-subtitle-1 mb-5 justify-center">
+        Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure
+      </v-card-subtitle>
       <v-card flat class="mx-auto mt-3 mb-5" >
         <v-row class="mb-5" >
-        <v-col cols="6" md="4">
+        <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
               <v-card-title>Développement Web</v-card-title>
@@ -21,7 +21,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="6" md="4">
+        <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
               <v-card-title>Base de données</v-card-title>
@@ -34,7 +34,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="6" md="4">
+        <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
               <v-card-title>DevOps & outils</v-card-title>
@@ -48,7 +48,7 @@
           </v-card>
         </v-col>
 
-        <v-col cols="6" md="4">
+        <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
               <v-card-title>Frameworks</v-card-title>
@@ -60,7 +60,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="6" md="4">
+        <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
               <v-card-title>Développement mobile</v-card-title>
@@ -71,7 +71,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="6" md="4">
+        <v-col cols="12" md="4">
           <v-card>
             <v-card-item>
               <v-card-title>Développement logiciel</v-card-title>
@@ -91,5 +91,35 @@
 </template>
 
 <style scoped>
-
+  /* Réduire les tailles de police sur mobile */
+  @media (max-width: 599px) {
+    :deep(.text-subtitle-1){
+    /*pour les retours à la ligne*/
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  :deep(.text-h3) {
+    font-size: 1.5rem !important;
+    /*pour les retours à la ligne*/
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  :deep(.text-h5) {
+    font-size: 0.9rem !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  /* Réduire le padding de la card */
+  :deep(.v-card-text) {
+    padding: 16px !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+}
 </style>

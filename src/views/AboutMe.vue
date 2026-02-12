@@ -1,7 +1,5 @@
-
-
 <template>
-    <v-card flat class="mx-auto mt-10 mb-5 bg-transparent w-75">
+    <v-card flat class="mx-auto mt-10 mb-5 bg-transparent w-80">
         <v-card-title class="d-flex mt-5 justify-center text-h3 ">
             À propos de moi 
         </v-card-title>
@@ -48,3 +46,38 @@
     </v-card>
 
 </template>
+
+<style scoped>
+/* Limiter la taille de l'image sur mobile uniquement */
+@media (max-width: 599px) {
+  /* Réduire les tailles de police sur mobile */
+  :deep(.text-subtitle-1){
+    /*pour les retours à la ligne*/
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  :deep(.text-h3) {
+    font-size: 1.5rem !important;
+    /*pour les retours à la ligne*/
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  :deep(.text-h5) {
+    font-size: 0.9rem !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  /* Réduire le padding de la card */
+  :deep(.v-card-text) {
+    padding: 16px !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+}
+</style>
