@@ -26,7 +26,7 @@
             <v-col cols="12" sm="6" md="4">
                 <v-card class="rounded-xl w-100" variant="outlined" style="height: 350px;">
                     <v-card-title class="text-h4 text-center">Experience</v-card-title>
-                    <v-card-subtitle class="text-h5 text-center">Développeur fullstack</v-card-subtitle>
+                    <v-card-subtitle class="text-h5 text-center">Développeur Web</v-card-subtitle>
                     <v-list>
                         <v-list-item class="text-h6 text-center">Conception d'interface d'administrations</v-list-item>
                         <v-list-item class="text-h6 text-center">Correction de la responsivité du site web</v-list-item>

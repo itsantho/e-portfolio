@@ -1,16 +1,21 @@
 ﻿<template>
   <v-container class="bg-transparent py-16 w-50">
     <v-card flat class="bg-transparent">
-      <v-card-subtitle class="mt-5 text-h5">
+      <v-card-subtitle class="d-flex justify-end mt-5 text-h5">
         Mes projets
       </v-card-subtitle>
-      <v-card-title class="mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
-        Une sélection de projets qui démontrent mon expertise en développement full-stack.
+      <v-card-title class="d-flex justify-end mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
+        Une sélection de projets qui démontrent mon expertise en développement 
       </v-card-title>
 
       <!-- Projet 1: Coup d'Main -->
       <v-row class="mt-16 mb-16 align-center">
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="6" class="order-1 order-md-2">
+          <v-img src="../assets/poster-coupdmain.png" class="rounded-lg"></v-img>
+        </v-col>
+
+  <!-- Texte - ordre 2 sur mobile, ordre 1 sur desktop -->
+        <v-col cols="12" md="6" class="order-2 order-md-1">
           <v-card flat class="bg-transparent">
             <v-card-title class="text-h5">Coup d'Main</v-card-title>
             <v-card-subtitle class="text-h6">Application mobile d'entraide</v-card-subtitle>
@@ -22,9 +27,6 @@
             </v-card-text>
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
-        </v-col>
-           <v-col cols="12" md="6">
-          <v-img src="../assets/poster-coupdmain.png" class="rounded-lg"></v-img>
         </v-col>
       </v-row>
 
@@ -53,8 +55,11 @@
 
       <!-- Projet 3: Giverr -->
       <v-row class="mt-16 mb-16 align-center">
+         <v-col cols="12" md="6" class="order-1 order-md-2">
+          <v-img src="../assets/icon.png" class="rounded-lg"></v-img>
+        </v-col>
 
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="6" class="order-2 order-md-1">
           <v-card flat class="bg-transparent">
             <v-card-title class="text-h5">Giverr</v-card-title>
             <v-card-subtitle class="text-h6">Application mobile de dons</v-card-subtitle>
@@ -66,9 +71,6 @@
             </v-card-text>
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
-        </v-col>
-                <v-col cols="12" md="6">
-          <v-img src="../assets/icon.png" class="rounded-lg"></v-img>
         </v-col>
       </v-row>
 

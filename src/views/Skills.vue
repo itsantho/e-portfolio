@@ -1,12 +1,12 @@
 <template>
-    <v-card flat class="mx-auto bg-transparent w-50">
-      <v-card-subtitle class="d-flex justify-end mt-5 text-h5">
+    <v-card flat class="mx-auto mt-16 mb-16 bg-transparent w-50">
+      <v-card-subtitle class="d-flex mt-16 text-h5">
         Compétences Techniques 
       </v-card-subtitle>
-      <v-card-title class="d-flex justify-end mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
-        Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure
+      <v-card-title class="d-flex mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
+        Mon savoir-faire : développement fullstack
       </v-card-title>
-      <v-card flat class="mx-auto mt-3 mb-5 " >
+      <v-card flat class="mx-auto mt-3 mb-16 " >
         <v-row class="mb-5" >
         <v-col cols="12" md="6">
           <v-card>
@@ -94,6 +94,7 @@
   /* Réduire les tailles de police sur mobile */
   @media (max-width: 599px) {
     :deep(.text-h4){
+    font-size: 1rem !important;
     /*pour les retours à la ligne*/
     word-break: break-word !important;
     white-space: normal !important;

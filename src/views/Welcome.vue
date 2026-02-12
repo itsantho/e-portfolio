@@ -11,8 +11,8 @@ import Contact from "@/components/Contact.vue";
     <v-card flat class="mx-auto bg-transparent w-50">
       
         <v-row class="d-flex align-center">
-          <!-- Image colonne - affichée en premier sur mobile -->
-          <v-col cols="6" sm="3" class="d-flex align-center mr-5 ">
+          <!-- Image colonne - affichée en premier sur mobile et en deuxième si grand écran -->
+          <v-col cols="6" sm="3" class="d-flex align-center mr-5 order-1 order-sm-2">
             <v-img
               src="../assets/IMG_6850.jpg"
               class="rounded-circle profile-image"
@@ -20,7 +20,7 @@ import Contact from "@/components/Contact.vue";
           </v-col>
 
           <!-- Colonne texte - affichée après sur mobile -->
-          <v-col cols="12" sm="8" class="d-flex align-center">
+          <v-col cols="12" sm="8" class="d-flex align-center order-2 order-sm-1">
               <v-card flat class="bg-transparent">
                 <v-card-title class="text-h3">
                   <span class="text-grey-darken-1">Bonjour, Je suis</span> Anthony IEM
