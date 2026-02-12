@@ -29,7 +29,7 @@ import Contact from "@/components/Contact.vue";
                 <v-card-text class="text-h4">
                   Spécialiser dans le développement FullStack, le développement mobile et concepection agile d'un produit SaaS.
                 </v-card-text>
-                <div>
+                <div class="pl-4">
                   <OpenCV></OpenCV>
                   <Contact></Contact>
                 </div>

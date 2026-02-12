@@ -1,14 +1,14 @@
 <template>
-    <v-card flat class="mx-auto bg-transparent w-75">
-      <v-card-title class="d-flex mt-5 justify-center text-h3">
+    <v-card flat class="mx-auto bg-transparent w-50">
+      <v-card-subtitle class="d-flex justify-end mt-5 text-h5">
         Compétences Techniques 
-      </v-card-title>
-      <v-card-subtitle class="d-flex text-h6 mb-5 justify-center">
-        Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure
       </v-card-subtitle>
+      <v-card-title class="d-flex justify-end mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
+        Mon savoir-faire : développement fullstack, de l’interface à l’infrastructure
+      </v-card-title>
       <v-card flat class="mx-auto mt-3 mb-5 " >
         <v-row class="mb-5" >
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card>
             <v-card-item>
               <v-card-title class="text-h5">Développement Web</v-card-title>
@@ -21,7 +21,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card>
             <v-card-item>
               <v-card-title class="text-h5">Base de données</v-card-title>
@@ -34,7 +34,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card>
             <v-card-item>
               <v-card-title class="text-h5">DevOps & outils</v-card-title>
@@ -48,7 +48,7 @@
           </v-card>
         </v-col>
 
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card>
             <v-card-item>
               <v-card-title class="text-h5">Frameworks</v-card-title>
@@ -60,7 +60,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card>
             <v-card-item>
               <v-card-title class="text-h5">Développement mobile</v-card-title>
@@ -71,7 +71,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="12" md="4">
+        <v-col cols="12" md="6">
           <v-card>
             <v-card-item>
               <v-card-title class="text-h5">Développement logiciel</v-card-title>

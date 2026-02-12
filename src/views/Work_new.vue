@@ -1,5 +1,5 @@
-﻿<template>
-  <v-container class="bg-transparent py-16 w-50">
+<template>
+  <v-container class="bg-transparent py-16">
     <v-card flat class="bg-transparent">
       <v-card-subtitle class="mt-5 text-h5">
         Mes projets
@@ -9,7 +9,10 @@
       </v-card-title>
 
       <!-- Projet 1: Coup d'Main -->
-      <v-row class="mt-16 mb-16 align-center">
+      <v-row class="mb-10 align-center">
+        <v-col cols="12" md="6">
+          <v-img src="../assets/poster-coupdmain.png" class="rounded-lg"></v-img>
+        </v-col>
         <v-col cols="12" md="6">
           <v-card flat class="bg-transparent">
             <v-card-title class="text-h5">Coup d'Main</v-card-title>
@@ -23,13 +26,10 @@
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
         </v-col>
-           <v-col cols="12" md="6">
-          <v-img src="../assets/poster-coupdmain.png" class="rounded-lg"></v-img>
-        </v-col>
       </v-row>
 
       <!-- Projet 2: Gestion de réservation -->
-      <v-row class="mt-16 mb-16 align-center">
+      <v-row class="mb-10 align-center">
         <v-col cols="12" md="6">
           <v-img src="../assets/gestion_reservation.png" class="rounded-lg"></v-img>
         </v-col>
@@ -52,8 +52,10 @@
       </v-row>
 
       <!-- Projet 3: Giverr -->
-      <v-row class="mt-16 mb-16 align-center">
-
+      <v-row class="mb-10 align-center">
+        <v-col cols="12" md="6">
+          <v-img src="../assets/icon.png" class="rounded-lg"></v-img>
+        </v-col>
         <v-col cols="12" md="6">
           <v-card flat class="bg-transparent">
             <v-card-title class="text-h5">Giverr</v-card-title>
@@ -67,13 +69,10 @@
             <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
           </v-card>
         </v-col>
-                <v-col cols="12" md="6">
-          <v-img src="../assets/icon.png" class="rounded-lg"></v-img>
-        </v-col>
       </v-row>
 
       <!-- Projet 4: N8N -->
-      <v-row class="mt-16 mb-16 align-center">
+      <v-row class="mb-10 align-center">
         <v-col cols="12" md="6">
           <v-img src="../assets/n8n.png" class="rounded-lg"></v-img>
         </v-col>
