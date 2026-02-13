@@ -1,25 +1,33 @@
 <template>
-  <v-footer class="text-center d-flex flex-column ga-2 py-4 mt-10 bg-grey-lighten-4">
-    <div class="d-flex ga-3">
-      <v-btn
-        v-for="icon in icons"
-        :key="icon"
-        :icon="icon"
-        density="comfortable"
-        variant="text"
-      ></v-btn>
-    </div>
-
-    <v-divider class="my-2" thickness="2" width="50"></v-divider>
-
-    <div class="text-caption font-weight-regular opacity-60">
-      Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    </div>
-
-    <v-divider></v-divider>
-
-    <div>
-      {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-    </div>
+  <v-footer class="bg-grey-darken-4 text-white" height="auto">
+    <v-container>
+      <v-row align="center" justify="center" class="py-6">
+        <v-col cols="12" md="4" class="text-center text-md-left">
+          <div class="text-h6 font-weight-bold mb-2">Anthony IEM</div>
+          <div class="text-body-2 text-grey-lighten-1">
+            Développeur Full Stack | Paris 📍
+          </div>
+        </v-col>
+        
+        <v-col cols="12" md="4" class="text-center text-md-right">
+          <div class="text-body-2 text-grey-lighten-1">
+            © 2026 Anthony IEM
+          </div>
+          <div class="text-caption text-grey">
+            Fait avec Vue.js
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-footer>
 </template>
+
+<style scoped>
+.hover-link {
+  transition: opacity 0.3s ease;
+}
+
+.hover-link:hover {
+  opacity: 0.7;
+}
+</style>

@@ -1,14 +1,14 @@
 <script setup>
 import OpenCV from "@/components/OpenCV.vue";
 import Navbar from "@/components/Navbar.vue";
-import Contact from "@/components/Contact.vue";
+import Contact from "@/components/ContactButtons.vue";
 </script>
 
 <template >
   
   <div class="d-flex flex-column justify-center bg-grey-lighten-4" style="min-height: 100vh">
     
-    <v-card flat class="mx-auto bg-transparent w-50">
+    <v-card flat class="mx-auto bg-transparent w-50 "data-aos="fade-right" data-aos-duration="2000">
       
         <v-row class="d-flex align-center">
           <!-- Image colonne - affichée en premier sur mobile et en deuxième si grand écran -->

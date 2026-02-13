@@ -1,6 +1,6 @@
 <template>
-    <v-container class="bg-transparent py-16">
-        <v-row class="d-flex justify-center align-center">       
+    <v-container class="bg-transparent mt-16 py-16">
+        <v-row class="d-flex justify-center align-center" data-aos="fade-right" data-aos-duration="3000">       
             <v-col cols="12" sm="12" md="2" class="d-flex justify-center">
                 <v-img  class="rounded-xl"  src="../assets/IMG_2355.jpg" max-width="100%"></v-img>
             </v-col>
@@ -21,9 +21,9 @@
             </v-col>
         </v-row>
     </v-container>
-       <v-container> 
-        <v-row class="mb-5 align-center justify-center">
-            <v-col cols="12" sm="6" md="4">
+       <v-container class="mb-16"> 
+        <v-row class="mb-16 align-center justify-center">
+            <v-col cols="12" sm="6" md="4" data-aos="zoom-in-up" data-aos-duration="5000">
                 <v-card class="rounded-xl w-100" variant="outlined" style="height: 350px;">
                     <v-card-title class="text-h4 text-center">Experience</v-card-title>
                     <v-card-subtitle class="text-h5 text-center">Développeur Web</v-card-subtitle>
@@ -36,7 +36,7 @@
                     </v-list>
                 </v-card>
             </v-col>
-            <v-col cols="12" sm="6" md="4" class="d-flex">
+            <v-col cols="12" sm="6" md="4" class="d-flex" data-aos="zoom-in-up" data-aos-duration="3000">
                 <v-card class="rounded-xl w-100" variant="outlined" style="overflow:hidden; height: 350px;">
                     <v-card-title class="text-h4 text-center">Formations</v-card-title>
                     <div class="d-flex justify-center">
