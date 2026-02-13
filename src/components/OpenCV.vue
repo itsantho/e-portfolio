@@ -5,6 +5,15 @@ const downloadCV = () => {
   link.download = 'CV_dev_fullstack_Anthony_IEM.pdf';
   link.click();
 };
+const scrollToWorks = () => {
+  const element = document.getElementById('projets');
+  if (element) {
+    element.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+};
 </script>
 
 <template>
@@ -19,6 +28,7 @@ const downloadCV = () => {
       ></v-btn>        
       <v-btn
         text="Voir projets"
+        @click="scrollToWorks()"
         variant="plain">
       </v-btn> 
       

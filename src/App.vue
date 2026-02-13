@@ -4,20 +4,22 @@
       <Navbar></Navbar>
       <Welcome></Welcome>
       <v-divider></v-divider>
-      <AboutMe></AboutMe>    
+      <div id="propos">
+        <AboutMe></AboutMe>
+      </div>
       <v-divider></v-divider>  
-      <Skills></Skills>
+      <Skills id="competences"></Skills>
       <v-divider></v-divider>
-      <Work data-aos="fade-left"></Work>
+      <Work id="projets" data-aos="fade-left"></Work>
       <v-divider></v-divider>
-      <Contact></Contact>
+      <Contact id="contact"></Contact>
       <Footer></Footer>
     </v-main>
   </v-app>
 </template>
 
 <script setup lang="ts">
-
+import Navbar from "./components/Navbar.vue";
 import Welcome from "@/views/Welcome.vue";
 import Work from "@/views/Work.vue";
 import Skills from "@/views/Skills.vue";

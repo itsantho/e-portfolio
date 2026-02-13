@@ -6,7 +6,7 @@ import { mdiLinkedin, mdiGithub, mdiEmail } from '@mdi/js'
 const socials = [
   { name: 'LinkedIn', icon: mdiLinkedin, url: 'https://www.linkedin.com/in/anthony-iem-13052630b' },
   { name: 'GitHub', icon: mdiGithub, url: 'https://github.com/itsantho' },
-  { name: 'Email', icon: mdiEmail, url: 'https://github.com/itsantho' },
+  { name: 'Email', icon: mdiEmail, url: 'mailto:anthony.iempro1@gmail.com' },
 ]
 </script>
 

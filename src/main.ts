@@ -25,6 +25,6 @@ app.mount('#app')
 
 AOS.init({
   duration: 1000,
-  once: true, // Animation une seule fois
+  once: false, // Permettre les animations multiples
   offset: 100
 })
