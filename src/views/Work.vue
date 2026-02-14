@@ -10,7 +10,7 @@
 
       <!-- Projet 1: Coup d'Main -->
       <v-row class="mt-16 mb-16 align-center" data-aos="fade-right"
-     data-aos-duration="3000">
+     data-aos-duration="1000">
         <v-col cols="12" md="6" class="order-1 order-md-2">
           <v-img src="../assets/poster-coupdmain.png" class="rounded-lg"></v-img>
         </v-col>
@@ -32,7 +32,7 @@
       </v-row>
 
       <!-- Projet 2: Gestion de réservation -->
-      <v-row class="mt-16 mb-16 align-center" data-aos="fade-left" data-aos-duration="3000">
+      <v-row class="mt-16 mb-16 align-center" data-aos="fade-left" data-aos-duration="1200">
         <v-col cols="12" md="6">
           <v-img src="../assets/gestion_reservation.jpg" class="rounded-lg"></v-img>
         </v-col>
@@ -56,7 +56,7 @@
 
       <!-- Projet 3: Giverr -->
       <v-row class="mt-16 mb-16 align-center" data-aos="fade-right"
-     data-aos-duration="3000">
+     data-aos-duration="1300">
          <v-col cols="12" md="6" class="order-1 order-md-2">
           <v-img src="../assets/icon.png" class="rounded-lg"></v-img>
         </v-col>
@@ -77,7 +77,7 @@
       </v-row>
 
       <!-- Projet 4: N8N -->
-      <v-row class="mt-16 mb-16 align-center" data-aos="fade-left" data-aos-duration="3000">
+      <v-row class="mt-16 mb-16 align-center" data-aos="fade-left" data-aos-duration="1400">
         <v-col cols="12" md="6">
           <v-img src="../assets/n8n.png" class="rounded-lg"></v-img>
         </v-col>

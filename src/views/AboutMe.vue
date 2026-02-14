@@ -1,6 +1,6 @@
 <template>
     <v-container class="bg-transparent mt-16 py-16 ">
-        <v-row class="d-flex justify-center align-center" data-aos="fade-right" data-aos-duration="3000">       
+        <v-row class="d-flex justify-center align-center" data-aos="fade-right" data-aos-duration="1200">       
             <v-col cols="10" sm="4" md="2" class="d-flex justify-center">
                 <v-img class="rounded-xl"  src="../assets/IMG_2355.jpg" ></v-img>
             </v-col>
@@ -23,7 +23,7 @@
     </v-container>
        <v-container class="mb-16"> 
         <v-row class="mb-16 align-center align-stretch justify-center">
-            <v-col cols="12" sm="6" md="4" data-aos="zoom-in-up" data-aos-duration="5000">
+            <v-col cols="12" sm="6" md="4" data-aos="zoom-in-up" data-aos-duration="1500">
                 <v-card class="rounded-xl w-100" variant="outlined">
                     <v-card-title class="text-h4 text-center">Experience</v-card-title>
                     <v-card-subtitle class="text-h5 text-center">Développeur Web</v-card-subtitle>
