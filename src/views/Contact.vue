@@ -10,9 +10,9 @@
         </v-card-title>
       </div>
 
-      <v-row class="mb-16" justify="center">
+      <v-row class="mb-16 contact-cards" justify="center">
         <!-- Email -->
-        <v-col cols="12" sm="6" md="3">
+        <v-col cols="12" sm="6" md="6">
           <v-card 
             class="pa-6 text-center hover-card" 
             elevation="2" 
@@ -30,7 +30,7 @@
         </v-col>
         
         <!-- LinkedIn -->
-        <v-col cols="12" sm="6" md="3">
+        <v-col cols="12" sm="6" md="6">
           <v-card 
             class="pa-6 text-center hover-card" 
             elevation="2" 
@@ -48,7 +48,7 @@
         </v-col>
         
         <!-- GitHub -->
-        <v-col cols="12" sm="6" md="3">
+        <v-col cols="12" sm="6" md="6">
           <v-card 
             class="pa-6 text-center hover-card" 
             elevation="2" 
@@ -66,7 +66,7 @@
         </v-col>
         
         <!-- Téléphone -->
-        <v-col cols="12" sm="6" md="3">
+        <v-col cols="12" sm="6" md="6">
           <v-card 
             class="pa-6 text-center hover-card" 
             elevation="2" 
@@ -95,5 +95,18 @@
 .hover-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+@media (min-width: 960px) and (max-width: 1263px){
+  /* Réduire les tailles de police sur mobile */
+    .contact-cards .v-card-title {
+    font-size: 1rem !important; /* ~18px */
+    padding: 12px 24px !important;
+  }
+
+    .contact-cards .v-card-text {
+    font-size: 1rem !important; /* ~16px */
+    padding: 16px 24px !important;
+  }
 }
 </style>
