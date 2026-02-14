@@ -37,7 +37,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="2000">
+          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="200">
             <v-card>
               <v-card-item>
                 <v-card-title class="text-h5">DevOps & outils</v-card-title>
@@ -51,7 +51,7 @@
             </v-card>
           </v-col>
 
-          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="2000">
+          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="200">
             <v-card>
               <v-card-item>
                 <v-card-title class="text-h5">Frameworks</v-card-title>
@@ -63,7 +63,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="3000">
+          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="300">
             <v-card>
               <v-card-item>
                 <v-card-title class="text-h5">Développement mobile</v-card-title>
@@ -74,7 +74,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="3000">
+          <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="300">
             <v-card>
               <v-card-item>
                 <v-card-title class="text-h5">Développement logiciel</v-card-title>

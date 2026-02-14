@@ -1,5 +1,5 @@
 <template>
-    <v-container class="bg-transparent mt-16 py-16">
+    <v-container class="bg-transparent mt-16 py-16 ">
         <v-row class="d-flex justify-center align-center" data-aos="fade-right" data-aos-duration="3000">       
             <v-col cols="12" sm="12" md="2" class="d-flex justify-center">
                 <v-img  class="rounded-xl"  src="../assets/IMG_2355.jpg" max-width="100%"></v-img>
@@ -56,43 +56,14 @@
 </template>
 
 <style scoped>
-/* Gestion du titre */
-:deep(.v-card-title) {
-  word-break: break-word !important;
-  white-space: normal !important;
-  overflow-wrap: break-word !important;
-}
+
 
 /* Limiter la taille de l'image sur mobile uniquement */
 @media (max-width: 599px) {
   /* Réduire les tailles de police sur mobile */
-  :deep(.text-h6) {
-    /*pour les retours à la ligne*/
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-  
-  :deep(.text-h5) {
 
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-  :deep(.text-h4){
-    font-size: 1.5rem !important;
-    /*pour les retours à la ligne*/
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
+
   
-  /* Réduire le padding de la card */
-  :deep(.v-card-text) {
-    padding: 16px !important;
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
+
 }
 </style>

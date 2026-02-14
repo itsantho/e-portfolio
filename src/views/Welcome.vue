@@ -1,6 +1,5 @@
 <script setup>
 import OpenCV from "@/components/OpenCV.vue";
-import Navbar from "@/components/Navbar.vue";
 import Contact from "@/components/ContactButtons.vue";
 </script>
 
@@ -29,10 +28,10 @@ import Contact from "@/components/ContactButtons.vue";
                 <v-card-text class="text-h4">
                   Spécialiser dans le développement Full-Stack, mobile et en conception agile de produit SaaS.
                 </v-card-text>
-                <div class="pl-4">
+                <v-card-text>
                   <OpenCV></OpenCV>
                   <Contact></Contact>
-                </div>
+                </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -52,30 +51,6 @@ import Contact from "@/components/ContactButtons.vue";
   .profile-image {
     max-width: 200px;
     max-height: 200px;
-  }
-  
-  /* Réduire les tailles de police sur mobile */
-  :deep(.text-h3) {
-    font-size: 1.5rem !important;
-    /*pour les retours à la ligne*/
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-  
-  :deep(.text-h4) {
-    font-size: 1.2rem !important;
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-  
-  /* Réduire le padding de la card */
-  :deep(.v-card-text) {
-    padding: 16px !important;
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
   }
 }
 </style>

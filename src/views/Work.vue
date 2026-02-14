@@ -108,40 +108,10 @@
   transform: scale(1.1);
 }
 
+
+
 @media (max-width: 599px) {
   /* Réduire les tailles de police sur mobile */
-  :deep(.text-h4) {
-    font-size: 1rem !important;
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
 
-  :deep(.text-h3) {
-    font-size: 1.5rem !important;
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-
-  :deep(.text-h5) {
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-
-  :deep(.text-h6) {
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-
-  /* Réduire le padding de la card */
-  :deep(.v-card-text) {
-    padding: 16px !important;
-    word-break: break-word !important;
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
 }
 </style>

@@ -70,7 +70,7 @@
           <v-card 
             class="pa-6 text-center hover-card" 
             elevation="2" 
-            data-aos="fade-up" 
+            data-aos="fade-down" 
             data-aos-delay="400"
           >
             <v-icon size="48" color="success" class="mb-4">mdi-phone</v-icon>
