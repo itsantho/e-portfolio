@@ -16,7 +16,4 @@ export default createVuetify({
   theme: {
     defaultTheme: 'system',
   },
-  typography: {
-    fontFamily: 'Poppins',
-  },
 })

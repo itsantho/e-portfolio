@@ -4,8 +4,8 @@
       <v-card-subtitle class="d-flex justify-end mt-5 text-h5">
         Mes projets
       </v-card-subtitle>
-      <v-card-title class="d-flex justify-end mb-5 text-h4 font-weight-bold text-grey-darken-3 text-break">
-        Une sélection de projets qui démontrent mon expertise en développement 
+      <v-card-title class="d-flex justify-end mb-5 text-h4 font-weight-bold text-grey-darken-3 ">
+        Une sélection de projets qui démontrent mon expertise
       </v-card-title>
 
       <!-- Projet 1: Coup d'Main -->
@@ -77,8 +77,7 @@
       </v-row>
 
       <!-- Projet 4: N8N -->
-      <v-row class="mt-16 mb-16 align-center" data-aos="fade-left"
-     data-aos-duration="3000">
+      <v-row class="mt-16 mb-16 align-center" data-aos="fade-left" data-aos-duration="3000">
         <v-col cols="12" md="6">
           <v-img src="../assets/n8n.png" class="rounded-lg"></v-img>
         </v-col>
@@ -92,7 +91,7 @@
               <v-chip>n8n</v-chip>
               <v-chip>sqlite</v-chip>
             </v-card-text>
-            <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/Francuz4520/SAE-S5-coupd-main"></v-btn>
+            <v-btn density="default" icon="mdi-open-in-new" flat target="_blank" href="https://github.com/itsantho/n8n_mcp_recherche_de_stage"></v-btn>
           </v-card>
         </v-col>
       </v-row>

@@ -1,12 +1,9 @@
 <script setup lang="ts">
-import SvgIcon from '@jamescoyle/vue-icon'
-import { mdiLinkedin, mdiGithub, mdiEmail } from '@mdi/js'
-
 // Liste des liens vers tes réseaux
 const socials = [
-  { name: 'LinkedIn', icon: mdiLinkedin, url: 'https://www.linkedin.com/in/anthony-iem-13052630b' },
-  { name: 'GitHub', icon: mdiGithub, url: 'https://github.com/itsantho' },
-  { name: 'Email', icon: mdiEmail, url: 'mailto:anthony.iempro1@gmail.com' },
+  { name: 'LinkedIn', icon: 'mdi-linkedin', url: 'https://www.linkedin.com/in/anthony-iem-13052630b', color: '#0A66C2' },
+  { name: 'GitHub', icon: 'mdi-github', url: 'https://github.com/itsantho', color: '#181717' },
+  { name: 'Email', icon: 'mdi-email', url: 'mailto:anthony.iempro1@gmail.com', color: '#EA4335' },
 ]
 </script>
 
@@ -16,12 +13,12 @@ const socials = [
         v-for="social in socials"
         :key="social.name"
         :href="social.url"
-        target="_blank"
+        :target="social.name !== 'Email' ? '_blank' : undefined"
         icon
         flat
         class="social-btn mx-auto bg-transparent"
       >
-        <svg-icon type="mdi" :path="social.icon" size="36"/>
+        <v-icon :color="social.color" size="36">{{ social.icon }}</v-icon>
       </v-btn>
     </div>
 </template>
@@ -34,6 +31,3 @@ const socials = [
   transform: scale(1.1);
 }
 </style>
-
-
-

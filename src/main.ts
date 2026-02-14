@@ -8,6 +8,7 @@
 import { registerPlugins } from '@/plugins'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+
 // Components
 import App from './App.vue'
 
@@ -16,7 +17,7 @@ import { createApp } from 'vue'
 
 // Styles
 import 'unfonts.css'
-
+import './assets/main.css'
 const app = createApp(App)
 
 registerPlugins(app)

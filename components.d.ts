@@ -11,10 +11,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Contact: typeof import('./src/components/Contact.vue')['default']
     ContactButtons: typeof import('./src/components/ContactButtons.vue')['default']
-    Footer: typeof import('./src/components/Footer.vue')['default']
-    HelloWorld: typeof import('./src/views/HelloWorld.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     OpenCV: typeof import('./src/components/OpenCV.vue')['default']
   }
