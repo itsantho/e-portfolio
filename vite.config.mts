@@ -29,6 +29,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/e-portfolio/',
   optimizeDeps: {
     exclude: ['vuetify'],
   },
