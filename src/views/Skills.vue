@@ -11,7 +11,7 @@
 
       <v-card flat class="mx-auto mt-3 mb-16" >
         <v-row class="mb-5" >
-          <v-col cols="12" md="6" data-aos="zoom-in-up"data-aos-duration="700">>
+          <v-col cols="12" md="6" data-aos="zoom-in-up"data-aos-duration="700">
             <v-card>
               <v-card-item>
                 <v-card-title class="text-h5">Développement Web</v-card-title>
@@ -24,7 +24,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" md="6" data-aos="zoom-in-up"data-aos-duration="700">>
+          <v-col cols="12" md="6" data-aos="zoom-in-up"data-aos-duration="700">
             <v-card>
               <v-card-item>
                 <v-card-title class="text-h5">Base de données</v-card-title>
