@@ -25,7 +25,7 @@ import Contact from "@/components/ContactButtons.vue";
                 <v-card-title class="text-h3">
                   <span class="text-grey-darken-1">Bonjour, Je suis</span> Anthony IEM
                 </v-card-title>
-                <v-card-subtitle class="text-h4">Développeur Fullstack & etudiant en B.U.T informatique</v-card-subtitle>
+                <v-card-subtitle class="text-h4">Développeur Fullstack</v-card-subtitle>
                 <v-card-text class="text-h4">
                   Spécialiser dans le développement Full-Stack, mobile et en conception agile de produit SaaS.
                 </v-card-text>
