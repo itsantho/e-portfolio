@@ -10,9 +10,9 @@
       </div>
 
       <v-card flat class="mx-auto mt-3 mb-16" >
-        <v-row class="mb-5" >
+        <v-row class="mb-5 align-stretch" justify="center">
           <v-col cols="12" md="6" data-aos="zoom-in-up"data-aos-duration="700">
-            <v-card>
+            <v-card class="h-100 d-flex flex-column">
               <v-card-item>
                 <v-card-title class="text-h5">Développement Web</v-card-title>
               </v-card-item>
@@ -25,7 +25,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6" data-aos="zoom-in-up"data-aos-duration="700">
-            <v-card>
+            <v-card class="h-100 d-flex flex-column">
               <v-card-item>
                 <v-card-title class="text-h5">Base de données</v-card-title>
               </v-card-item>
@@ -38,7 +38,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="700">
-            <v-card>
+            <v-card class="h-100 d-flex flex-column">
               <v-card-item>
                 <v-card-title class="text-h5">DevOps & outils</v-card-title>
               </v-card-item>
@@ -52,7 +52,7 @@
           </v-col>
 
           <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="700">
-            <v-card>
+            <v-card class="h-100 d-flex flex-column">
               <v-card-item>
                 <v-card-title class="text-h5">Frameworks</v-card-title>
               </v-card-item>
@@ -64,7 +64,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="700">
-            <v-card>
+            <v-card class="h-100 d-flex flex-column">
               <v-card-item>
                 <v-card-title class="text-h5">Développement mobile</v-card-title>
               </v-card-item>
@@ -75,7 +75,7 @@
             </v-card>
           </v-col>
           <v-col cols="12" md="6" data-aos="zoom-in-up" data-aos-duration="700">
-            <v-card>
+            <v-card class="h-100 d-flex flex-column">
               <v-card-item>
                 <v-card-title class="text-h5">Développement logiciel</v-card-title>
               </v-card-item>
