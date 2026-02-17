@@ -2,11 +2,11 @@
     <v-container class="bg-transparent mt-16 py-16 ">
         <v-row class="d-flex justify-center align-center" data-aos="fade-right" data-aos-duration="1200">       
             <v-col cols="10" sm="4" md="2" class="d-flex justify-center">
-                <v-img class="rounded-xl"  src="../assets/IMG_2355.jpg" ></v-img>
+                <v-img class="rounded-xl"  src="../assets/IMG_2355.jpg"></v-img>
             </v-col>
             <v-col cols="12" sm="10" md="5" >
                 <v-card flat class="bg-transparent">
-                    <v-card-subtitle class="text-h5">À propos de moi </v-card-subtitle>
+                    <v-card-subtitle class="text-h5">À propos de moi</v-card-subtitle>
                     <v-card-title class=" text-h4 font-weight-bold text-grey-darken-3 text-break">
                         Développeur Full Stack, basé sur Paris 📍
                     </v-card-title>
